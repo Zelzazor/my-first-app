@@ -1,0 +1,26 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+
+.btnHome {
+  border: solid 0.3rem #111111;
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: #333333;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.btnHome:hover {
+  background-color: azure;
+  color: #333333;
+}

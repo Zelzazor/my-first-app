@@ -1,0 +1,30 @@
+.navBar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: #333333;
+  color: white;
+  font-size: 2rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.btn {
+  border: none;
+  background-color: #333333;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.btn:hover {
+  background-color: azure;
+  color: #333333;
+}
